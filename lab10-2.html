@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lab 12 no2</title>
+    <title></title>
     <script>
       function send() {
         request = new XMLHttpRequest();
         request.onreadystatechange = showResult;
         var username = document.getElementById("keyword").value;
-        var url = "lab12no2.php?username=" + username;
+        var url = "lab10-2.php?username=" + username;
         request.open("GET", url);
         request.send();
       }
